@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ data.question1 }}</title>
+<title>QUESTION</title>
 </head>
 <body>
 <form action="http://127.0.0.1:5000/survey">
@@ -9,10 +9,8 @@
 	 <input type="text" name="username">
 	</div>
 	<div>
-    <h1>{{ data.question1 }}</h1>
-  {% for e in data.fields1 %}
-     <input type="radio" name="field1" value="{{ e }}"> {{ e }}<br>
-  {% endfor %}
+    <h1></h1>
+     <input type="radio" name="field1" value="a">abcd<br>
   </div>
   <div>
   <h1>{{ data.question2 }}</h1>
